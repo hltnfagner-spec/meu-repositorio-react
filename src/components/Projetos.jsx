@@ -6,7 +6,7 @@ function Projetos() {
       titulo: "MVP - Migração para React",
       descricao: "Migração do meu portfólio profissional para React.",
       //
-      link: "meu-repositorio-react-chi.vercel.app" 
+      link: "https://meu-repositorio-react-chi.vercel.app" 
     }
   ];
 
