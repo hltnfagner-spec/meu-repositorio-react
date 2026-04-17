@@ -4,9 +4,9 @@ function Projetos() {
   const meusProjetos = [
     {
       titulo: "MVP - Migração para React",
-      descricao: "Migração do meu portfólio profissional para React, utilizando componentização e renderização dinâmica de dados.",
+      descricao: "Migração do meu portfólio profissional para React.",
       // Lembrete: Colocar o link certo do repositório ou do site na Vercel aqui
-      link: "https://github.com/hltnfagner-spec/meu-portfolio-react" 
+      link: "https://github.com/hltnfagner-spec/meu-repositorio-react" 
     }
   ];
 
