@@ -1,11 +1,10 @@
-// Componente 1: Sobre Mim isolado em um arquivo
 function SobreMim() {
   return (
     <section id="sobre">
       <h2>Sobre Mim</h2>
       <div className="sobre-container">
         <div className="foto-perfil">
-          {/* Pegando a minha foto lá da pasta public (o Vite entende que a barra / vai direto pra lá) */}
+          {/* carregando a imagem direto da raiz da pasta public do Vite */}
           <img src="/minha-foto.JPG" alt="Foto de Hilton Fagner" />
         </div>
         <div className="sobre-texto">
