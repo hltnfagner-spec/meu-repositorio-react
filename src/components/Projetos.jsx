@@ -1,16 +1,12 @@
-// Componente 2: Meus Projetos renderizando dados dinâmicos
+// Componente 2: Meus Projetos isolados num arquivo só
 function Projetos() {
-  // Array de objetos com os meus projetos (requisito da atividade)
+  // Lista com os meus projetos. Deixei só o da migração para o React!
   const meusProjetos = [
     {
-      titulo: "MVP - Portfólio em React",
-      descricao: "Migração do meu portfólio profissional para React, focado em componentização e renderização dinâmica.",
+      titulo: "MVP - Migração para React",
+      descricao: "Migração do meu portfólio profissional para React, utilizando componentização e renderização dinâmica de dados.",
+      // Lembrete: Colocar o link certo do repositório ou do site na Vercel aqui
       link: "https://github.com/hltnfagner-spec/meu-portfolio-react" 
-    },
-    {
-      titulo: "Gestão para Apicultura",
-      descricao: "Sistema em planejamento para auxiliar o controle de colmeias na associação de apicultores.",
-      link: "#"
     }
   ];
 
@@ -18,7 +14,7 @@ function Projetos() {
     <section id="projetos">
       <h2>Meus Projetos</h2>
       <div className="grid-projetos">
-        {/* Passando pelo array com o map para criar os cards na tela */}
+        {/* O map vai passar pelo array e criar o card na tela, mesmo sendo só um por enquanto */}
         {meusProjetos.map((projeto, index) => (
           <div className="projeto-card" key={index}>
             <h3>{projeto.titulo}</h3>
